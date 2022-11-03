@@ -1,0 +1,30 @@
+
+
+
+
+<h1>{{city}}</h1>
+
+
+<p>Lorem ipsum wfwefwef {{city | lowercase}}</p>
+
+
+<h1>{{city | uppercase}}</h1>
+<p>{{message | titlecase}}</p>
+
+<p>{{city | slice: 3: 8}}</p>
+
+<p>{{container | json}}</p>
+
+<p>{{3.1490237230947324 | number: '1.2-4'}}</p>
+<p>{{3.1490237230947324 | number: '3.2-4'}}</p>
+
+<p>{{0.25 | percent}}</p>
+
+<p>{{100 | currency }}</p>
+
+<p>{{100 | currency: 'тг': 'code'}}</p>
+
+<p>Full time with date: {{date}}</p>
+<p>Only date {{date | date:'short'}}</p>
+<p>Only date but shorter {{date | date: 'shortDate'}}</p>
+<p>Only time {{date | date: 'shortTime'}}</p>
