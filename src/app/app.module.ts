@@ -8,6 +8,7 @@ import { TextPipe } from './pipe/text.pipe';
 import { StudentComponent } from './component/student/student.component';
 import { FilterPipe } from './pipe/filter.pipe';
 import {FormsModule} from "@angular/forms";
+import { BeverageComponent } from './component/beverage/beverage.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {FormsModule} from "@angular/forms";
     TestComponent,
     TextPipe,
     StudentComponent,
-    FilterPipe
+    FilterPipe,
+    BeverageComponent
   ],
   imports: [
     BrowserModule,
