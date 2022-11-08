@@ -1,0 +1,12 @@
+<div *ngFor="let post of service.posts">
+
+  <p>{{post}}</p>
+</div>
+
+
+
+<div class="submitter">
+  <h1>Create new post</h1>
+  <input type="text" #newPost>
+  <button (click)="addPost(newPost.value); newPost.value=''" class="btn btn-warning">Add post</button>
+</div>

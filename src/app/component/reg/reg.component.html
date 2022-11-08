@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <h1>Регистрация</h1>
+  <div class="item">
+    <input type="text" placeholder="Login" [(ngModel)]="login">
+  </div>
+  <div class="item">
+    <input type="password" placeholder="Password" [(ngModel)]="password">
+  </div>
+  <div class="item">
+    <input type="password" placeholder="Repeat password" [(ngModel)]="repeatedPassword">
+  </div>
+  <div class="item">
+    <button (click)="register()" class="btn btn-success">Регистранция</button>
+  </div>
+</div>

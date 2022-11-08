@@ -10,16 +10,18 @@
 <!--<h1>{{transform('SomE ValuE', 'Prefix')}}</h1>-->
 <!--<button class="btn btn-success" (click)="title = title + '1' ">Push me</button>-->
 
+<!--<app-reg></app-reg>-->
+<!--<app-log></app-log>-->
+<!--<app-post></app-post>-->
+<!--&lt;!&ndash;<app-student></app-student>&ndash;&gt;-->
 
+<!--<div class="parent">-->
+<!--  <h2>Parent component</h2>-->
 
-<!--<app-student></app-student>-->
+<!--  <ul>-->
+<!--    <li *ngFor="let bev of beverageService.beverages">{{bev}}</li>-->
+<!--  </ul>-->
+<!--  <app-beverage [beverage]="currentBeverage" (newBeverageEvent)="addBeverage($event)"></app-beverage>-->
 
-<div class="parent">
-  <h2>Parent component</h2>
-
-  <ul>
-    <li *ngFor="let bev of beverageService.beverages">{{bev}}</li>
-  </ul>
-  <app-beverage [beverage]="currentBeverage" (newBeverageEvent)="addBeverage($event)"></app-beverage>
-
-</div>
+<!--</div>-->
+<app-film></app-film>

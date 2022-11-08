@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 50%;
+}
