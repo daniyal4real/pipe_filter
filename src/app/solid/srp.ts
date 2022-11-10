@@ -13,7 +13,6 @@ class Book {
   get title(): string {
     return this._title
   }
-
 }
 
 

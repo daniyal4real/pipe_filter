@@ -1,16 +1,34 @@
-.parent {
-  border: 1px solid grey;
-  margin: 20px;
-  padding: 20px;
+/*.parent {*/
+/*  border: 1px solid grey;*/
+/*  margin: 20px;*/
+/*  padding: 20px;*/
+/*}*/
+
+/*h2 {*/
+/*  text-align: center;*/
+/*  color: darkblue;*/
+/*}*/
+
+
+/*li {*/
+/*  list-style: circle;*/
+/*}*/
+
+
+.content {
+  background-color: #fff;
+  padding: 2rem;
+  height: calc(100vh - 64px);
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 
-h2 {
-  text-align: center;
-  color: darkblue;
+
+.bar {
+  background-color: darkblue;
 }
-
-
-li {
-  list-style: circle;
+.wrapper {
+  background-color: black;
 }
-
